@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Pranjal Biswas - DAW</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
+        
+        <!-- Update these with your own fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+        
+        <link rel="stylesheet" href="css/style.css">
+
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <a href="index.html"><img src="img/logo.png" alt=""></a>
+            </div>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="index.html#services" class="nav__link">My Services</a></li>
+                    <li class="nav__item"><a href="index.html#about" class="nav__link">About me</a></li>
+                    <li class="nav__item"><a href="index.html#work" class="nav__link">My Work</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+
+        <section class="intro">
+            <h1 class="section__title section__title--intro">
+                DAW<strong>Digital Audio Workstation</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">MSE 491 - Digital Signal Processing</p>
+            <img src="img\projects\project3.png" alt="" class="intro__img">
+        </section>
+
+        <section class="project-description" id="description">
+            <h2 class="section__title section__title--project">Project Description</h2>
+            <div class = project>
+                <p>Signal processing was one of the most important tools I learned in my courses. I was able to apply this knowledge to create a digital audio workstation. 
+                    This project was a great way to learn about signal processing and how to apply it to real world problems. The goal of this project was to create a MATLAB app that would allow
+                users to upload a file, which could then be played back with different effects applied to it.</p>
+                    <!-- <img src="img\projects\capstone-group.jpg" alt=""> -->
+                <!-- <p>add project details, dont just talk about what it was, talk about what i did and why that was a good thing</p> -->
+                <p>Part 1 of the project consisted of applying some effects to the sound file by doing mathematical manipulations to the sound. The DAW was able to represent the sound in Frequency Spectrum using a built-in MATLAB Fast Fourier Transform (FFT) function.
+                    Basic effects such as echo, reverb, and distortion could also applied to the sound file. The DAW was able to play back the sound file with the effects applied to it, and compound the effects or restore the sound. When finished, the user can save the file as well. </p>
+                <p>Part 2 of the project consisted of applying more advanced effects to the sound file. The DAW was able to apply a low or high pass filter to the sound file, which would remove all frequencies at a certain threshold.
+                    I also built a custom FFT function using the butterfly technique on MATLAB to visualize the sound file in the frequency spectrum. More advanced filters filters such as Butterworth, Chebyshev and Windowed-Sinc filters were also implemented. </p>
+        </section>
+            
+        
+         <!-- Footer -->
+         <footer class = "footer"> 
+            <!-- replace with your own email address -->
+            <a href="mailto:pranjalbiswas@hotmail.com" class="footer__link">pranjalbiswas@hotmail.com</a>
+            <ul class="social-list">
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://github.com/pranjolol">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://www.linkedin.com/in/pranjalbiswas/">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://www.instagram.com/pranjolol/">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </li>
+                <!-- <li class="social-list__item">
+                    <a class="social-list__link" href="https://github.com">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </li> -->
+            </ul>
+        </footer>
+        
+        <script src="js/index.js"></script>
+
+    </body>
+</html>

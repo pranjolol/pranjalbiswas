@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Pranjal Biswas</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
+        
+        <!-- Update these with your own fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+        
+        <link rel="stylesheet" href="css/style.css">
+
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <img src="img/logo.png" alt="">
+            </div>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="#services" class="nav__link">My Skills</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
+                    <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <!-- Introduction -->
+        <section class="intro" id="home">
+            <h1 class="section__title section__title--intro">
+                Hi, I am <strong>Pranjal Biswas</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">Mechatronic Systems Engineer</p>
+            <img src="img/headshot.jpg" alt="a picture of Pranjal Biswas smiling" class="intro__img">
+        </section>
+        
+        
+        <!-- My services -->
+        <section class="my-services" id="services">
+            <h2 class="section__title section__title--services">What I do</h2>
+            <div class="services">
+                <div class="service">
+                    <h3>Mechanical</h3>
+                    <p>Experience with CAD Design, FEA analysis and Quality and Manufacturing engineering experience.</p>
+                </div> <!-- / service -->
+                
+                <div class="service">
+                    <h3>Software</h3>
+                    <p>Proficient in MATLAB, Simulink, C++ and Python. Currently learning Full-Stack Development and Machine learning</p>
+                </div> <!-- / service -->
+                
+                <div class="service">
+                    <h3>Electrical</h3>
+                    <p>Knowledge of embedded firmware, Digital Signal Procession and circuit design and analysis</p>
+                </div>
+                <!-- / service -->
+            </div> <!-- / services -->
+            
+            <a href="#work" class="btn">My Work</a>
+        </section>
+        
+        
+        <!-- About me -->
+        <section class="about-me" id="about">
+           <h2 class="section__title section__title--about">Who I am</h2>
+           <p class="section__subtitle section__subtitle--about">New engineering grad from Vancouver</p>
+           
+           <div class="about-me__body">
+                <p>I am an experienced Mechatronics Engineer, with a focus area of software and embedded systems. I have one year total of work experience, as a Biomechanical Engineering Research Intern at Human in Motion Robotics, a Product Manager and Developer and Human in Motion Robotics, and as a Supplier Quality Engineer at Ballard Power Systems.</p>   
+            <!-- <p>I am an experienced Mechatronics Engineer, with a focus area of software and embedded systems. I have one year total of internship experience in the mechanical and software industry. I worked as a Biomechanical Engineering Research Intern at a start-up called Human in Motion Robotics, where I created a new method to quickly measure and fit users with spinal cord injuries onto an exoskeleton. I used kinematics and physical body segment approximations of the human body, to cut measurement time by 60%.
+                I spent four months at MeaningfulWork, a voluntering platform where I worked as a Product Manager and Developer. I worked on the front-end design and back-end of the website, and revamped the account log-in process for volunteers, companies and employees. I also led a team of volunteer developers through some basic front-end development opportunities within the website. As a product manager, I interviewed and surveyed users to determine how to improve our services, and created timelines and  I am currently learning Full-Stack Development and Machine Learning.</p>
+               </p> -->
+               <p>Aside from my undergraduate studies, I am passionate for student affairs and spent four years with the <a href="https://www.msess.ca/" target="_blank" rel="noreferrer noopener">Mechatronic Systems Engineering Student Society (MSESS)</a>, where I was elected as President in my final year. In my four years, I helped plan and lead events, reformed our finances, and led my program through the transition into remote learning during the pandemic, as well as our return to in-person learning. I facilitated accomodations for students with health issues or other concerns during this time, and also introduced new services to the students to keep us connected during this period of isolation.</p>
+               <p>I also enjoy learning to edit videos and creating 3D models, watching movies and TV shows, skiing, playing basketball, and working out in my free time.</p>
+            </div>
+           
+           <img src="img/pranjal_smiling.jpg" alt="Pranjal leaning against a bus" class="about-me__img">
+        </section>
+        
+        <!-- My Work -->
+        <section class="my-work" id="work">
+            <h2 class="section__title">My work</h2>
+            <p class="section__subtitle">A selection of my work</p>
+            
+            <div class="portfolio">
+                <!-- Portfolio item 02 -->
+                <a href=chess.html class="portfolio__item">
+                    <img src="img\projects\project2_square.gif" alt="" class="portfolio__img">3 DoF Chess Playing Robot Manipulator Simulation
+                </a>
+                
+                <!-- Portfolio item 03 -->
+                <a href=DAW.html class="portfolio__item">
+                    <img src="img\projects\project3.png" alt="" class="portfolio__img"> Digital Audio Workstation (DAW) for Audio Signal Processing
+                </a>
+
+                <!-- Portfolio item 06 -->
+                <a href=capstone.html class="portfolio__item">
+                    <img src="img\projects\capstone.png" alt="" class="portfolio__img">Computer Vision Fall Detection System for Seniors <br> Capstone Project
+                </a>
+            </div>
+            <!-- <a href=portfolio-item.html class="btn">See All</a> -->
+        </section>
+                
+        <!-- Footer -->
+        <footer class = "footer"> 
+            <!-- replace with your own email address -->
+            <a href="mailto:pranjalbiswas@hotmail.com" class="footer__link">pranjalbiswas@hotmail.com</a>
+            <ul class="social-list">
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://github.com/pranjolol">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://www.linkedin.com/in/pranjalbiswas/">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://www.instagram.com/pranjolol/">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </li>
+                <!-- <li class="social-list__item">
+                    <a class="social-list__link" href="https://github.com">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </li> -->
+            </ul>
+        </footer>
+        
+        <script src="js/index.js"></script>
+
+    </body>
+</html>

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Pranjal Biswas - Chess Bot</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
+        
+        <!-- Update these with your own fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+        
+        <link rel="stylesheet" href="css/style.css">
+
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <a href="index.html"><img src="img/logo.png" alt=""></a>
+            </div>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="index.html#services" class="nav__link">My Services</a></li>
+                    <li class="nav__item"><a href="index.html#about" class="nav__link">About me</a></li>
+                    <li class="nav__item"><a href="index.html#work" class="nav__link">My Work</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+
+        <section class="intro">
+            <h1 class="section__title section__title--intro">
+                Chess Playing <strong>Robot Manipulator</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">MSE 429 Project</p>
+            <img src="img\projects\chess.png" alt="" class="intro__img">
+        </section>
+
+        <section class="project-description" id="description">
+            <h2 class="section__title section__title--project">Project Description</h2>
+            <div class = project>
+                <p>For my second to last semester, I took MSE 429 - Advanced Kinematics for Robotic Systems. In this class, I did a project on modeling a robotic manipulator in MATLAB.
+                    The manipulator was a 3-DOF manipulator modeled using the Denavit-Hartenberg parameters. This manipulator was used to perform a 10 move chess opening for both white and black.
+                </p>
+                <img src="img\projects\project2.gif" alt="">
+                <!-- <p>add project details, dont just talk about what it was, talk about what i did and why that was a good thing</p> -->
+                <p>The main challenges for this project were calculating the Denavit-Hartenberg parameters, and the inverse kinematics of the system, as well as animating the movement. 
+                    I had learned and practiced enough calculations, but animating on MATLAB was a new skill I learned while completing the project.</p>
+                <p>I am especially proud of this project because of the teamwork and step-by-step processes we followed to slowly build up our vision. This project started with rough sketch, to which we added length, angles and distance parameters. We performed calculations of the DH parameters and inverse kinematics to ensure the manipulator could reach all desired coordinates of the board. From there, we modeled the pieces and learned how to import SolidWorks models into MATLAB for animations. After many hours of writing, testing and debugging my code, we had a working animation.</p>
+            </div>
+        </section>
+            
+        
+         <!-- Footer -->
+         <footer class = "footer"> 
+            <!-- replace with your own email address -->
+            <a href="mailto:pranjalbiswas@hotmail.com" class="footer__link">pranjalbiswas@hotmail.com</a>
+            <ul class="social-list">
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://github.com/pranjolol">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://www.linkedin.com/in/pranjalbiswas/">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://www.instagram.com/pranjolol/">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </li>
+                <!-- <li class="social-list__item">
+                    <a class="social-list__link" href="https://github.com">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </li> -->
+            </ul>
+        </footer>
+        
+        <script src="js/index.js"></script>
+
+    </body>
+</html>
