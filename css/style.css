@@ -386,18 +386,25 @@ header {
 
 .portfolio {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(3, minmax(400px, 450px));
+    justify-content: center;
+    padding: 50px
 }
 
 .portfolio__item {
-    /* background: var(--clr-accent); */
     overflow: hidden;
-    padding: 10px;
+    padding: 15px;
     color: var(--clr-light);
     text-decoration: var(--fw-bold);
+    align-items: center;
+    justify-content: center;
+    max-width: 600px;
 }
 
 .portfolio__img {
+    background: var(--clr-light);
+    border-color: #ffffff;
+    border : 2px solid;
     transition: 
         transform 750ms cubic-bezier(.5, 0, .5, 1),
         opacity 250ms linear;
@@ -500,4 +507,12 @@ header {
 .project {
     max-width: 1000px;
     margin: auto;
+    align-content: center;
+    justify-content: center;
+}
+
+.project_img {
+    display: flex;
+    justify-content: center;
+    align-content: center;
 }
