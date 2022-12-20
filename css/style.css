@@ -516,3 +516,62 @@ header {
     max-width: 600px;
     margin: auto;
 }
+
+/* Experience */
+.experience {
+    background-color: var(--clr-dark);
+    background-size: cover;
+    color: var(--clr-light);
+}
+
+.experience_description {
+    max-width: 1000px;
+    margin: auto;
+    align-content: center;
+    justify-content: center;
+}
+.section__title--experience {
+    color: var(--clr-accent);
+    position: relative;
+    text-align: center;
+}
+
+.section__title--experience::after {
+    content: '';
+    display: block;
+    width: 2em;
+    height: 1px;
+    margin: 0.5em auto 1em;
+    background: var(--clr-light);
+    opacity: 0.25;
+}
+
+/* Extras */
+.extras {
+    background-color: var(--clr-dark);
+    background-size: cover;
+    color: var(--clr-light);
+}
+
+.extras_description {
+    max-width: 1000px;
+    margin: auto;
+    align-content: center;
+    justify-content: center;
+}
+.section__title--extras {
+    color: var(--clr-accent);
+    position: relative;
+    text-align: center;
+}
+
+.section__title--extras::after {
+    content: '';
+    display: block;
+    width: 2em;
+    height: 1px;
+    margin: 0.5em auto 1em;
+    background: var(--clr-light);
+    opacity: 0.25;
+}
+
