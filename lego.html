@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Pranjal Biswas - DAW</title>
+        <title>Pranjal Biswas - Capstone</title>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
         
@@ -35,26 +35,25 @@
 
         <section class="intro">
             <h1 class="section__title section__title--intro">
-                Machine Learning<strong>Posture Detection</strong>
+                Computer Vision<strong>Fall Detection</strong>
             </h1>
-            <p class="section__subtitle section__subtitle--intro">MSE 491 Project</p>
-            <img src="img\projects\posture.png" alt="" class="intro__img">
+            <p class="section__subtitle section__subtitle--intro">MSE 110 Project</p>
+            <img src="img\projects\battlebot.JPG" alt="" class="intro__img">
         </section>
 
         <section class="project-description" id="description">
             <h2 class="section__title section__title--project">Project Description</h2>
             <div class = "project">
-                <p>The first engineering technical elective course I took in my undergrad was MSE 491 - Application of Machine Learning in Mechatronic Systems. In this course, I learned some basic Python and some Machine Learning principles and applications. For my final project, I created a posture detection software using some body recognition libraries and algorithms.</p>
-                <img class="project_img" src="img\projects\posture.gif" alt="">
-                <p> The project aimed to improve posture while sitting at a desk using machine learning and negative reinforcement. The project resulted in the development of a posture detection software that uses webcam video input to monitor a person's posture in real-time.
-
-                    The software uses a machine learning algorithm to detect when a person is slouching or has poor posture. When this is detected, the software generates a buzz sound until the person corrects their posture. The idea behind this is to use negative reinforcement to encourage the desired behavior of maintaining good posture while sitting at a desk.
+                <p>In my first year of undergrad, I took a MSE 110, where we built four different robots throughout the semester for different purposes. Two of my favorite projects in that course were the Battlebot and Maze-solving Robot.<img class="project_img" src="img\projects\battlebot.JPG" alt="">
+                <p>As pictured above, This is my 1sy Place battlebot; a large lego 4-wheel juggernaut. We designed it to be heavy and wide, so it would be harder to knock it over. The ultrasonic sensor in front helped locate enemies while the scoop helped get under them and push them out of the ring. Though our design was robust, it was actually strategy that led us to 1st Place.</p>
+                <img class="project_img" src="img\projects\battlebot.JPG" alt="">
+                <p>The arena for the battlebot competition was a circle. In the circle were two parallel pieces of tape near the center, perpendicular to starting forward trajectories of all bots. In the very center was a flag, and the first bot to reach the flag is awarded 20 points. Crossing the tape however, resulted in a 10 point penalty for each crossing. While all other robots turned at the start of the round to begin moving and make their way around the tape, I made my robot simply detect the opponent and drive full speed at them. This strategy was effective because we hit the opponents on their side because they were already turning, thus capitilzing on their vulnarability and sweeping each round in seconds. Because the robots started opposite to each other, we crossed both lines of tape, but also picked up the flag, resulting in a net 0 points. Winning the rounds however, resulted in 50 points.</p>
+                <img class="project_img" src="img\projects\maze_solver.JPG" alt="">
+                <p>For the maze solver project, the goal was to have the robot solve a maze from start to finish and then travel back from end to start without any mistakes. I implemented a strategy based on depth-first search, using a rotating ultrasonic sensor to check for walls and take the right-most path available. When the robot reached a dead-end, it returned to the last junction point and explored the next section. You also had to account for issues with the maze not being built non-uniformly, which required the robot to sometimes back into a solid wall to align itself and move forward a small amount to position itself in the center of the cell. This strategy was effective, and our robot was able to travel from start to finish, calculate the path, then return from finish to start in one go with no mistakes.
+                </p>    
+                <p>Overall, these projects required a good understanding of robotics, problem-solving skills, some rule-bending, as well as the ability to design and build functional robots using Lego Mindstorms. These project were my introduction to engineering, and I am proud to have been able to build these robots and compete with them.</p>
                 </p>
-                    <p>To develop the software, I used Python and Jupyter. I first trained the machine learning model using a dataset of images of people with good and poor posture. I then integrated the model into the software and tested it using webcam video input.
-                    
-                    Overall, the project was a success in that it was able to accurately detect poor posture and provide a means of encouraging improved posture through negative reinforcement. This has the potential to be a useful tool for people who spend long hours sitting at a desk and want to maintain good posture to avoid back pain and other health issues.
-                    
-                    In the future, I plan to continue refining the software and potentially integrating it into a more user-friendly interface, such as a mobile app. I believe this project has the potential to make a positive impact on people's health and well-being, and I am excited to see where it goes in the future.</p>
+            </div>
         </section>
             
         

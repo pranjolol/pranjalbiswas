@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Pranjal Biswas - Projects</title>
+        <title>Pranjal Biswas - UAV Simulator</title>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
         
@@ -32,52 +32,34 @@
             </nav>
         </header>
         
-       
 
-        
-        <!-- My Work -->
-        <section class="my-work" id="work">
-            <h2 class="section__title">My work</h2>
-            <p class="section__subtitle">A selection of my work</p>
-            
-            <div class="portfolio">
-                <!-- Portfolio item 02 -->
-                <a href=chess.html class="portfolio__item">
-                    <img src="img\projects\chess_square.gif" alt="" class="portfolio__img">3 DoF Chess Playing Robot Manipulator Simulation
-                </a>
-                
-                <!-- Portfolio item 03 -->
-                <a href=DAW.html class="portfolio__item">
-                    <img src="img\projects\DAW.png" alt="" class="portfolio__img"> Digital Audio Workstation (DAW) for Audio Signal Processing
-                </a>
-
-                <!-- Portfolio item 06 -->
-                <a href=capstone.html class="portfolio__item">
-                    <img src="img\projects\capstone.png" alt="" class="portfolio__img">Computer Vision Fall Detection System for Seniors <br> Capstone Project
-                </a>
-                <a href=posture.html class="portfolio__item">
-                    <img src="img\projects\posture.gif" alt="" class="portfolio__img">Machine Learning Posture Detection Software
-                </a>
-
-                <!-- Portfolio item 06 -->
-                <a href=UAV.html class="portfolio__item">
-                    <img src="img\projects\UAV.png" alt="" class="portfolio__img">MATLAB Flight Simulation of a Quadcopter UAV
-                </a>
-                <!-- Portfolio item 02 -->
-                <a href=lego.html class="portfolio__item">
-                    <img src="img\projects\battlebot.JPG" alt="" class="portfolio__img">Lego Mindstorms Battlebot and Maze Solver
-                </a>
-                
-                <!-- Portfolio item 03 -->
-                <!-- <a href=DAW.html class="portfolio__item">
-                    <img src="img\projects\project6.JPG" alt="" class="portfolio__img"> Digital Audio Workstation (DAW) for Audio Signal Processing
-                </a> -->
-            </div>
-            <!-- <a href=portfolio-item.html class="btn">See All</a> -->
+        <section class="intro">
+            <h1 class="section__title section__title--intro">
+                MATLAB UAV<strong>Flight Simulator</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">MSE 491 Project</p>
+            <img src="img\projects\UAV.jpg" alt="" class="intro__img">
         </section>
-                
-        <!-- Footer -->
-        <footer class = "footer"> 
+
+        <section class="project-description" id="description">
+            <h2 class="section__title section__title--project">Project Description</h2>
+            <div class = "project">
+                <p>In MSE 491 - Flight Dynamics & Control of UAVs, I learned and applied basic aircraft aerodynamic principles to create a flight simulator on MATLAB. This was a solo project unlike any other project I had completed in my undergrad,
+                    due to the weekly deliverable format and the fact that I was responsible for the entire project from start to finish. I was able to learn a lot about aircraft dynamics and control systems, and I was able to apply this knowledge to create a functional flight simulator.
+                </p>
+                <!-- <img src="img\projects\capstone-group.jpg" alt=""> -->
+                <p>The goal of the project was to understand the various ways that air affects a moving object in 3D space, and I implemented several features to help simulate this.
+                    One of the key features of the simulator was a live graph that visualized different aircraft properties such as pitch. This allowed users to see how the aircraft was behaving in real-time and make adjustments as needed. Another important feature was an autopilot system, which was a simple version that worked to maintain trajectory and altitude. The autopilot used control system processes to maintain stability with minimal oscillations and a fast response.
+                </p>    
+                <p>Overall, the project was a success in that it provided a platform for exploring and understanding the principles of flight and aircraft behavior. It required a solid understanding of aerodynamics and the ability to design and implement a functional simulator using MATLAB.
+                    In the future, I plan to continue refining and expanding the capabilities of the flight simulator, possibly by adding more advanced features such as a more sophisticated autopilot or additional aircraft models. I believe this project has the potential to be a valuable tool for those interested in aircraft engineering and simulation, and I am excited to see where it goes in the future.
+                </p>
+            </div>
+        </section>
+            
+        
+         <!-- Footer -->
+         <footer class = "footer"> 
             <!-- replace with your own email address -->
             <a href="mailto:pranjalbiswas@hotmail.com" class="footer__link">pranjalbiswas@hotmail.com</a>
             <ul class="social-list">

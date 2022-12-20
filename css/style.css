@@ -481,12 +481,6 @@ header {
     margin-right: auto;
 }
 
-.project-description {
-    background-color: var(--clr-dark);
-    background-size: cover;
-    color: var(--clr-light);
-}
-
 /* project */
 .section__title--project {
     color: var(--clr-accent);
@@ -504,6 +498,13 @@ header {
     opacity: 0.25;
 }
 
+
+.project-description {
+    background-color: var(--clr-dark);
+    background-size: cover;
+    color: var(--clr-light);
+}
+
 .project {
     max-width: 1000px;
     margin: auto;
@@ -512,7 +513,6 @@ header {
 }
 
 .project_img {
-    display: flex;
-    justify-content: center;
-    align-content: center;
+    max-width: 600px;
+    margin: auto;
 }
