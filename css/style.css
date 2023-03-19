@@ -394,7 +394,7 @@ header {
 
 .portfolio {
     display: grid;
-    grid-template-columns: repeat(3, minmax(400px, 450px));
+    grid-template-columns: repeat(1, minmax(400px, 450px));
     justify-content: center;
     padding: 50px
 }
@@ -416,6 +416,7 @@ header {
     transition: 
         transform 750ms cubic-bezier(.5, 0, .5, 1),
         opacity 250ms linear;
+    max-width: 100%;
 }
 
 .portfolio__item:focus {
@@ -427,6 +428,15 @@ header {
 .portfolio__item:focus .portfolio__img {
     transform: scale(1.2);
     opacity: .5;
+}
+
+@media (min-width: 600px) {
+    .portfolio {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(400px, 450px));
+        justify-content: center;
+        padding: 50px
+    }
 }
 
 /* footer */
